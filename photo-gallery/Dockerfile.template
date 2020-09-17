@@ -1,0 +1,1 @@
+FROM balenablocks/photo-gallery:%%BALENA_ARCH%%
