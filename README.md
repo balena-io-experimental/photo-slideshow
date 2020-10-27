@@ -14,7 +14,7 @@ A simple project to quickly get you up and running with a web frame to display p
 
 You can deploy this project to a new balenaCloud application in one click using the button below:
 
-[![](https://balena.io/deploy.png)](https://dashboard.balena-cloud.com/deploy?repoUrl=https://github.com/balenalabs/photo-slideshow)
+[![](https://balena.io/deploy.png)](https://dashboard.balena-cloud.com/deploy?repoUrl=https://github.com/balenalabs-incubator/photo-slideshow)
 
 Or, you can create an application in your balenaCloud dashboard and balena push this code to it the traditional way.
 
