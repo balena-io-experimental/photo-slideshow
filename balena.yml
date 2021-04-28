@@ -1,7 +1,20 @@
-applicationConfigVariables:
+name: "Photo Slideshow"
+type: "sw.application"
+description: "Display a photo slideshow of your favourite hosted albums."
+assets:
+  repository:
+    type: "blob.asset"
+    data:
+      url: "https://github.com/balenalabs-incubator/photo-slideshow"
+data:
+  applicationConfigVariables:
     - BALENA_HOST_CONFIG_gpu_mem: 128
-applicationEnvironmentVariables:
+  applicationEnvironmentVariables:
     - LAUNCH_URL: '"http://photo-gallery:8888/"'
     - KIOSK: '1'
     - GALLERY_URL: ''
+  defaultDeviceType: "raspberrypi3"
+  supportedDeviceTypes:
+    - "raspberrypi3"
+
    
