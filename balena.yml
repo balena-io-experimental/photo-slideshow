@@ -10,7 +10,7 @@ data:
   applicationConfigVariables:
     - BALENA_HOST_CONFIG_gpu_mem: 128
   applicationEnvironmentVariables:
-    - LAUNCH_URL: 'photo-gallery:8888/'
+    - LAUNCH_URL: 'http://photo-gallery:8888/'
     - KIOSK: '1'
     - GALLERY_URL: ''
   defaultDeviceType: "raspberrypi3"
